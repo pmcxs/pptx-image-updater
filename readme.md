@@ -66,6 +66,9 @@ python update-images.py <yourfile>.pptx -u myuser -p 'mypass123!!!'
 ```
 
 ### Known Limitations ###
+
+- Only supports PPTX files, not PPT
+
 - Currently only basic-auth is supported. If you need another type of authentication it would need to be implemented
 
 - If you duplicate the same image on the PPTX file and assign them different hyperlinks, it would update both images with the same data, particularly due to an optimization done by Powerpoint, on which it stores both images blob on the same place
