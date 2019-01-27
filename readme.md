@@ -2,7 +2,7 @@
 
 Do you know when you have a Powerpoint that you present often and it has a couple of diagrams that constantly get outdated?
 This tool allows you to update the images inside a powerpoint (PPTX) with up-to-date versions obtained from valid URL sources. 
-You do this by associating an hyperlink with each imagem that you want to target and then just running this command
+You do this by associating a hyperlink with each image that you want to target and then just running this command
 
 ## Getting Started
 
@@ -34,9 +34,9 @@ This should display the various usage options of the tool
 
 The concept of this tool is very simple:
 
-- you have a PPTX which includes images which you want to update from a certain source. For example, suppose you have an image that represents a calendar that gets updated quite often and you have to manually update it on the PPTX each time you're presenting it
+- you have a PPTX which includes images which you want to update from a certain source
 
-- each image that you want to have automatically updated should include an hyperlink to the relevant source
+- each image that you want to have automatically updated should include a hyperlink to the relevant source
 
 - then just run the tool like:
 
@@ -47,7 +47,7 @@ python update-images.py <yourfile>.pptx
 - it will automatically:
     - open the file 
     - iterate the various slides
-    - for each image validate that it has an hyperlink
+    - for each image validate that it has a hyperlink
     - if so, download the image from that url and update it on the slide
     - save the file again
 
