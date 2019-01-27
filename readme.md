@@ -1,6 +1,8 @@
 # PPTX Image Updater
 
-One Paragraph of project description goes here
+Do you know when you have a Powerpoint that you present often and it has a couple of diagrams that constantly get outdated?
+This tool allows you to update the images inside a powerpoint (PPTX) with up-to-date versions obtained from valid URL sources. 
+You do this by associating an hyperlink with each imagem that you want to target and then just running this command
 
 ## Getting Started
 
@@ -51,7 +53,7 @@ python update-images.py <yourfile>.pptx
 
 ### Authentication ###
 
-- Some images might be on the intranet under some sort of authentication. This tool also supports sending basic auth data by supplying the --username (-u) and --password (-p) parameters
+Some images might be on the intranet under some sort of authentication. This tool also supports sending basic auth data by supplying the --username (-u) and --password (-p) parameters
 
 ```
 python update-images.py <yourfile>.pptx -u myuser -p mypassword
@@ -66,7 +68,7 @@ python update-images.py <yourfile>.pptx -u myuser -p 'mypass123!!!'
 ### Known Limitations ###
 - Currently only basic-auth is supported. If you need another type of authentication it would need to be implemented
 
-- If you duplicate the same image on the PPTX file and assign them different hyperlinks, it would update both images with the same data, particularly due to an optimization done by Powerpoint, on which it would store both images blob on the same place
+- If you duplicate the same image on the PPTX file and assign them different hyperlinks, it would update both images with the same data, particularly due to an optimization done by Powerpoint, on which it stores both images blob on the same place
 
 
 ## Contributing
