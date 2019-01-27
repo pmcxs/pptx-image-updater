@@ -77,7 +77,7 @@ No major guidelines on this. Just be reasonable :)
 
 ## Authors
 
-* **Pedro Sousa** - *Initial work* - [pmcxs](https://github.com/PurpleBooth)
+* **Pedro Sousa** - *Initial work* - [pmcxs](https://github.com/pmcxs)
 
 ## License
 
@@ -85,6 +85,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* https://github.com/scanny/python-pptx
